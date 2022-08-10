@@ -34,6 +34,7 @@
     const units = userNumber % 10;
     const tens = Math.trunc(userNumber / 10) % 10;
     const hundreds = Math.trunc(userNumber / 100) % 10;
+    console.log(`В числе ${userNumber} количество сотен: ${hundreds}, десятков: ${tens}, единиц: ${units}`);
 
     /*
     1.задаем ввод при помощи функции prompt и при помощи обьекта Number
@@ -45,6 +46,7 @@
     4.делим число на 100 и берем остаток, это выведет количество сотен в числе
     с помощью функции Math.trunc возвращаем целую часть числа путем удаления всех
     дробных знаков
+    5.при помощи функции console.log выводим значение
     */
 
   </script>
